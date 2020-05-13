@@ -733,6 +733,10 @@ outline:none;
 
 	body{
 		width: 100%;
+		background-color: #F2C6DE;
+	}
+	.bienvenida{
+		height: 100%;
 	}
 	.contenedor{
 		height: 100vh;
@@ -746,8 +750,8 @@ outline:none;
 		position: absolute;
 		margin-top:0px;
 		left: 0px;
-		height: 33%;
-    	width: 45%;
+		height: 160px;
+    	width: 125px;
     	background-color: pink;
     	overflow: hidden;
     	transition:1s ease;
@@ -793,10 +797,12 @@ outline:none;
 		margin-top: 30px;
 	}
 	.cabezera .imagen{
-		right: 38px;
+		right: 47px;
+		width: 50%;
 	}
 	.cabezera .imagen2{
-		right: 60px;
+		right: 73px;
+		width: 50%;
 	}
 	.cabezera-scroll{
 		display: none;
@@ -810,6 +816,7 @@ outline:none;
 	.bienvenida .fila .mensaje {
 	    flex: 0 0 70%;
 	    width: 70%;
+	    height: 350px;
 	}
 
 	p {
@@ -843,7 +850,7 @@ outline:none;
     display: block;
     text-align: center;
     right: 0px;
-    margin-top: -100px;
+    margin-top: 0px;
 	}
 	.bienvenida-info span {
     font-size: 25px;
@@ -995,7 +1002,7 @@ outline:none;
     margin-left: 20px;
     margin-top: 35px;
     font-size: 23px;
-    line-height: 20px;
+    line-height: 19px;
 }
 }
 /*fin media 320*/
@@ -1008,6 +1015,10 @@ outline:none;
 
 	body{
 		width: 100%;
+		background-color: #F2C6DE;
+	}
+	.bienvenida{
+		height: 100%;
 	}
 	.contenedor{
 		width: 100%;
@@ -1020,8 +1031,8 @@ outline:none;
     position: absolute;
     margin-top: 0px;
     left: 0px;
-    height: 36%;
-    width: 23%;
+    height: 160px;
+    width: 125px;
     background-color: pink;
     overflow: hidden;
     transition: 1s ease;
@@ -1034,12 +1045,12 @@ outline:none;
 	.cabezera .navegador ul a li {
     padding: 0 5px;
     display: block;
-    height: 21px;
+    height: 30px;
     width: 100%;
     text-align: left;
     text-transform: uppercase;
-    line-height: 25px;
-    font-size: 16px;
+    line-height: 30px;
+    font-size: 21px;
     font-weight: 600;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
@@ -1083,6 +1094,7 @@ outline:none;
 	.bienvenida .fila .mensaje {
 	    flex: 0 0 70%;
 	    width: 70%;
+	    height: 100%;
 	}
 
 	p {
@@ -1116,7 +1128,7 @@ outline:none;
     display: block;
     text-align: center;
     right: 0px;
-    margin-top: -350px;
+    margin-top: 0px;
 	}
 	.bienvenida-info span {
     font-size: 25px;
@@ -1134,9 +1146,9 @@ outline:none;
 	}
 	.familias .fila .galeria-familia .caja .plus h4 {
     display: block;
-    font-size: 19px;
+    font-size: 14px;
     line-height: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 	}
     .familias .fila .galeria-familia .caja .plus a button {
     display: block;
@@ -1158,7 +1170,7 @@ outline:none;
 	.foto-plagas{
 		margin-top: 20px;
 		overflow: hidden;
-		height: 100vh;
+		height: 100%;
 	}
 	.foto-plagas .caja-plagas {
 	flex: 0 0 calc(45% - 10px);
@@ -1267,8 +1279,8 @@ outline:none;
     width: 90%;
     margin-left: 20px;
     margin-top: 35px;
-    font-size: 21px;
-    line-height: 15px;
+    font-size: 20px;
+    line-height: 16px;
 }
 }
 /*fin media 480*/
@@ -1280,6 +1292,7 @@ outline:none;
 
 	body{
 		width: 100%;
+		background-color: #F2C6DE;
 	}
 	.contenedor{
 		height: 100vh;
@@ -1293,12 +1306,13 @@ outline:none;
     position: absolute;
     margin-top: 0px;
     left: 0px;
-    height: 30.9%;
-    width: 35%;
+    height: 176px;
+    width: 155px;
     background-color: pink;
     overflow: hidden;
     transition: 1s ease;
     transform: translate(-100%);
+    z-index: 2;
 	}
 
 	.mostrar-navegador{
@@ -1308,12 +1322,12 @@ outline:none;
 	.cabezera .navegador ul a li {
     padding: 0 5px;
     display: block;
-    height: 60px;
+    height: 32px;
     width: 100%;
     text-align: left;
     text-transform: uppercase;
-    line-height: 55px;
-    font-size: 50px;
+    line-height: 40px;
+    font-size: 25px;
     font-weight: 600;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
@@ -1327,7 +1341,7 @@ outline:none;
 	visibility: visible;
 	}
 	.barra{
-	font-size: 40px;
+	font-size: 30px;
 	}
 	
 	#menu-celu:checked ~ .navegador ul{
@@ -1338,22 +1352,22 @@ outline:none;
 		width: 100%;
 	}
 	.cabezera .titulo h1 {
-    font-size: 120px;
+    font-size: 95px;
     margin-left: 0px;
     margin-top: 15px;
 	}
 	.cabezera .imagen{
-		right: 38px;
+		right: 55px;
 	}
 	.cabezera .imagen2{
-		right: 60px;
+		right: 86px;
 	}
 	.cabezera-scroll{
 		display: none;
 	}
 	.titulos{
 		margin-top: 0px;
-		font-size: 70px;
+		font-size: 60px;
     	text-align: center;
     	width: 100%;
 	}
@@ -1368,19 +1382,20 @@ outline:none;
 	.bienvenida .fila .mensaje {
 	    flex: 0 0 70%;
 	    width: 70%;
+	    height: 100%;
 	}
 
 	p {
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 35px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     text-align: center;
     width: 100%;
 	}
 	.bienvenida span {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 35px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     font-weight: bold;
@@ -1402,11 +1417,11 @@ outline:none;
     display: block;
     text-align: center;
     right: 0px;
-    margin-top: -100px;
+    margin-top: 0px;
 	}
 	.bienvenida-info span {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 35px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     font-weight: bold;
@@ -1420,15 +1435,15 @@ outline:none;
 	}
 	.familias .fila .galeria-familia .caja .plus h4 {
     display: block;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 32px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 	}
     .familias .fila .galeria-familia .caja .plus a button {
     display: block;
     border-radius: 20px;
     background-color: transparent;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 40px;
     color: #fff;
     font-family: 'Caveat', cursive;
@@ -1436,8 +1451,8 @@ outline:none;
     border: solid;
 	}
 	.curiosidades span {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 30px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     font-weight: bold;
@@ -1447,15 +1462,15 @@ outline:none;
 		overflow: hidden;
 	}
 	.foto-plagas .caja-plagas {
-    flex: 0 0 100%;
-    width: 100%;
+    flex: 0 0 50%;
+    width: 50%;
     height: auto;
     margin-bottom: 30px;
 	}
 	.caja-plagas h6 {
     margin: 10px;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 40px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     text-align: center;
@@ -1463,7 +1478,7 @@ outline:none;
 	}
 	.info-video h6 {
     margin: 10px;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
@@ -1511,29 +1526,29 @@ outline:none;
 	.copete {
     margin: 0;
     text-align: center;
-    font-size: 42px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 35px;
 	}
 	.familia .fila .galeria-familia .caja .plus h4 {
     display: block;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 30px;
     color: #fff;
     font-family: 'Caveat', cursive;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin-bottom: 20px;
 	}
 	.familia .fila .galeria-familia .caja .plus button {
     display: block;
     border-radius: 50%;
     background-color: transparent;
-    font-size: 40px;
-    line-height: 40px;
-    width: 67px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 50px;
     color: #fff;
     font-family: 'Caveat', cursive;
     padding: 0;
-    height: 67px;
+    height: 50px;
     border: solid;
 	}
 	.familia .full-imagen .informacion .informacion-imagen {
@@ -1559,8 +1574,8 @@ outline:none;
     width: 90%;
     margin-left: 20px;
     margin-top: 35px;
-    font-size: 43px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
 	}
 }
 /*fin media 768*/
@@ -1572,6 +1587,7 @@ outline:none;
 
 	body{
 		width: 100%;
+		background-color: #F2C6DE;
 	}
 	.contenedor{
 		width: 100%;
@@ -1579,7 +1595,7 @@ outline:none;
 	}
 	.cabezera .navegador ul {
     height: 100%;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     padding: 0;
 	}
@@ -1587,10 +1603,10 @@ outline:none;
     height: 100%;
     text-align: center;
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 30px;
     width: calc(20% - 4px);
     display: inline-block;
-    font-size: 37px;
+    font-size: 25px;
     font-weight: 600;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
@@ -1598,7 +1614,7 @@ outline:none;
 	}
 	.cabezera-familia .navegador ul {
     height: 100%;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     padding: 0;
 	}
@@ -1606,10 +1622,10 @@ outline:none;
     height: 100%;
     text-align: center;
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 30px;
     width: calc(20% - 4px);
     display: inline-block;
-    font-size: 37px;
+    font-size: 25px;
     font-weight: 600;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
@@ -1617,7 +1633,7 @@ outline:none;
 }
 	.cabezera-scroll .navegador ul {
     height: 100%;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     padding: 0;
 	}
@@ -1625,10 +1641,10 @@ outline:none;
     height: 100%;
     text-align: center;
     text-transform: uppercase;
-    line-height: 40px;
+    line-height: 30px;
     width: calc(20% - 4px);
     display: inline-block;
-    font-size: 37px;
+    font-size: 25px;
     font-weight: 600;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 3px;
@@ -1639,7 +1655,7 @@ outline:none;
 		width: 100%;
 	}
 	.cabezera .titulo h1 {
-    font-size: 150px;
+    font-size: 120px;
     margin-left: 0px;
     margin-top: -50px;
 	}
@@ -1667,11 +1683,12 @@ outline:none;
 	.bienvenida .fila .mensaje {
 	    flex: 0 0 70%;
 	    width: 70%;
+	    height: 100%;
 	}
 
 	p {
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 35px;
+    line-height: 40px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     text-align: center;
@@ -1719,9 +1736,9 @@ outline:none;
 	}
 	.familias .fila .galeria-familia .caja .plus h4 {
     display: block;
-    font-size: 40px;
-    line-height: 40px;
-    letter-spacing: 5px;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 1px;
 	}
     .familias .fila .galeria-familia .caja .plus a button {
     display: block;
@@ -1735,8 +1752,8 @@ outline:none;
     border: solid;
 	}
 	.curiosidades span {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 35px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     font-weight: bold;
@@ -1746,15 +1763,15 @@ outline:none;
 		overflow: hidden;
 	}
 	.foto-plagas .caja-plagas {
-    flex: 0 0 calc(50% - 10px);
-    width: calc(50% - 10px);
+    flex: 0 0 calc(40% - 10px);
+    width: calc(40% - 10px);
     height: auto;
     margin-bottom: 30px;
 	}
 	.caja-plagas h6 {
     margin: 10px;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 40px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
     text-align: center;
@@ -1762,7 +1779,7 @@ outline:none;
 	}
 	.info-video h6 {
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 40px;
     color: #6d6875;
     font-family: 'Caveat', cursive;
@@ -1809,8 +1826,8 @@ outline:none;
 	.copete {
     margin: 0;
     text-align: center;
-    font-size: 42px;
-    line-height: 45px;
+    font-size: 35px;
+    line-height: 35px;
 	}
 	.familia .fila .galeria-familia .caja .plus h4 {
     display: block;
@@ -1857,7 +1874,283 @@ outline:none;
     width: 90%;
     margin-left: 20px;
     margin-top: 35px;
-    font-size: 43px;
-    line-height: 45px;
+    font-size: 40px;
+    line-height: 40px;
 	}
+}
+
+/*fin media 1024*/
+
+
+
+/*inicio media 1200*/
+@media(min-width:1025px) and (max-width: 1200px){
+	body{
+		width: 100%;
+		background-color: #F2C6DE;
+	}
+	.contenedor{
+		width: 100%;
+		background-color: #F2C6DE;
+	}
+	.cabezera .navegador ul {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+	}
+	.cabezera .navegador ul a li {
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+    width: calc(20% - 4px);
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    transition: .5s ease;
+	}
+	.cabezera-familia .navegador ul {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+	}
+	.cabezera-familia .navegador ul a li {
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+    width: calc(20% - 4px);
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    transition: .5s ease;
+}
+	.cabezera-scroll .navegador ul {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+	}
+	.cabezera-scroll .navegador ul a li {
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 35px;
+    width: calc(20% - 4px);
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    transition: .5s ease;
+}
+	.cabezera .titulo{
+		height: 100%;
+		width: 100%;
+	}
+	.cabezera .titulo h1 {
+    font-size: 140px;
+    margin-left: 0px;
+    margin-top: -50px;
+	}
+	.cabezera .imagen{
+		right: 120px;
+	}
+	.cabezera .imagen2{
+		right: 189px;
+	}
+	
+	.titulos{
+		margin-top: 0px;
+		font-size: 90px;
+    	text-align: center;
+    	width: 100%;
+	}
+	.bienvenida {
+    margin: -1px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F2C6DE;
+    padding: 1px 0;
+	}
+	.bienvenida .fila .mensaje {
+	    flex: 0 0 70%;
+	    width: 70%;
+	    height: 100%;
+	}
+
+	p {
+    font-size: 35px;
+    line-height: 40px;
+    color: #6d6875;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    width: 100%;
+	}
+	.bienvenida span {
+    font-size: 50px;
+    line-height: 50px;
+    color: #6d6875;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+	}
+	.frase-bienvenida{
+		display: none;
+	}
+	.bienvenida .fila .imagen-bienvenida {
+    flex: 0 0 30%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    position: relative;
+	}
+	.bienvenida .fila .imagen-bienvenida img {
+    width: 135%;
+    display: block;
+    text-align: center;
+    right: 0px;
+    margin-top: -100px;
+	}
+	.bienvenida-info span {
+    font-size: 50px;
+    line-height: 50px;
+    color: #6d6875;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+	}
+	.familias .fila .galeria-familia {
+    	margin-top: 10px;
+	}
+	.familias .fila .galeria-familia .caja {
+	    flex: 0 0 calc(50% - 10px);
+	    width: calc(50% - 10px);
+	}
+	.familias .fila .galeria-familia .caja .plus h4 {
+    display: block;
+    font-size: 35px;
+    line-height: 35px;
+    letter-spacing: 1px;
+	}
+    .familias .fila .galeria-familia .caja .plus a button {
+    display: block;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 50px;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    padding: 10px 15px;
+    border: solid;
+	}
+	.curiosidades span {
+    font-size: 40px;
+    line-height: 40px;
+    color: #6d6875;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+	}
+	.foto-plagas{
+		margin-top: 20px;
+		overflow: hidden;
+	}
+	.foto-plagas .caja-plagas {
+    flex: 0 0 calc(40% - 10px);
+    width: calc(40% - 10px);
+    height: auto;
+    margin-bottom: 30px;
+	}
+	.caja-plagas h6 {
+    margin: 10px;
+    font-size: 40px;
+    line-height: 45px;
+    color: #6d6875;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin-bottom: 7px;
+	}
+	.info-video h6 {
+    margin-top: 30px;
+    font-size: 35px;
+    line-height: 40px;
+    color: #6d6875;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin-bottom: 0px;
+	}
+	.caja-video{
+		border-bottom: solid;
+		width: 100%;
+	}
+	.caja-video .videos {
+    text-align: center;
+    width:calc(50% - 10px);
+    flex:0 0 calc(50% - 10px);
+    margin-top:20px;
+	}
+	.videos video{
+		width: 85%;
+		padding-bottom: 35px;
+	}
+	.caja-video .info-video {
+    margin-top: 30px;
+    width:calc(50% - 10px);
+    flex:0 0 calc(50% - 10px);
+	}
+
+	
+	.titulos{
+		letter-spacing: 3px;
+	}
+	.familia{
+		height: 100%;
+	}
+	.familia .fila .galeria-familia {
+		justify-content: space-between;
+	}
+	.familia .fila .galeria-familia .caja {
+	    flex: 0 0 calc(50% - 5px);
+	    width: calc(50% - 5px);
+	   	margin:0;
+	    margin-bottom: 15px;
+	    position: relative;
+	    overflow: hidden;
+	}
+	.copete {
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+	}
+	.familia .fila .galeria-familia .caja .plus h4 {
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+	}
+	.familia .fila .galeria-familia .caja .plus button {
+    display: block;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 40px;
+    line-height: 40px;
+    width: 67px;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    padding: 0;
+    height: 67px;
+    border: solid;
+	}
+	
 }
